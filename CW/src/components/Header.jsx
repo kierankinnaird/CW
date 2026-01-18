@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Header() {
   return (
     <header className="header">
@@ -5,10 +7,10 @@ export default function Header() {
         <div className="brand">CW</div>
 
         <nav className="nav">
-          <a href="#">Home</a>
-          <a href="#">Services</a>
-          <a href="#">Booking</a>
-          <a href="#">Contact</a>
+          <Link to="/">Home</Link>
+          <Link to="/services">Services</Link>
+          <Link to="/booking">Booking</Link>
+          <Link to="/contact">Contact</Link>
         </nav>
 
         <button className="btn">Book</button>
