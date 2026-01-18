@@ -114,3 +114,23 @@ a:hover { color: var(--accent); }
   gap: 12px;
   flex-wrap: wrap;
 }
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+
+  .hero {
+    padding-top: 48px;
+  }
+
+  .footer__inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (min-width: 1024px) {
+  .hero {
+    padding-top: 96px;
+  }
+}
