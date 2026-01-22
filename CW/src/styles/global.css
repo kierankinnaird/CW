@@ -215,3 +215,42 @@ a:hover { color: var(--accent); }
   margin: 0;
   color: var(--muted);
 }
+
+.home {
+  padding: 64px 0 80px;
+}
+
+.home__hero {
+  margin-bottom: 64px;
+}
+
+.home__intro {
+  max-width: 70ch;
+  margin-bottom: 56px;
+}
+
+.home__intro h2 {
+  margin-bottom: 16px;
+  color: var(--accent);
+}
+
+.home__intro p {
+  margin-bottom: 14px;
+  color: var(--text);
+}
+
+.home__cta {
+  background: rgba(25, 211, 218, 0.08);
+  border-radius: var(--radius);
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.home__cta p {
+  margin: 0;
+  color: var(--text);
+}
